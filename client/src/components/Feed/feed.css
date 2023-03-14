@@ -1,0 +1,10 @@
+.feedArea{
+    width: 50%;
+    align-items: center;
+    max-width: 900px;
+}
+
+.feedWrapper{
+    padding: 20px;
+    height: calc(100vh - 50px)
+}

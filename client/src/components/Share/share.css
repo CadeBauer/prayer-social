@@ -1,0 +1,91 @@
+.share{
+    margin-top: 30px;
+    width: 48%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.51); 
+    box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.51);
+    max-width: 880px;
+    background-color: white;
+}
+
+.shareWrapper{
+    padding: 10px;
+}
+
+.shareTop{
+    display: flex;
+    align-items: center;
+}
+
+.shareProfileImg{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.shareInput{
+    margin-left: 10px;
+    width: 100%;
+    border: none;
+}
+
+.shareInput:focus{
+    outline: none;
+}
+
+.shareLine{
+    margin: 10px;
+}
+
+.shareBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shareOptions{
+    display: flex;
+    margin-left: 20px;
+}
+
+.option{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.shareIcon{
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.optionText{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.shareButton{
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    font-weight: 400;
+    margin-right: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+    color: white;
+    background-color: black;
+}
+
+.shareMedia{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.file{
+    width: 50%;
+    max-height: 500px;
+    margin: 15px 0;
+}
